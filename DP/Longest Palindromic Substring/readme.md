@@ -1,0 +1,1 @@
+For every index, I consider two possible palindrome centers. For odd-length palindromes, the center is a single character, so I expand from (i,i). For even-length palindromes, the center lies between two characters, so I expand from (i,i+1). I expand while the characters match and keep track of the longest palindrome found."
