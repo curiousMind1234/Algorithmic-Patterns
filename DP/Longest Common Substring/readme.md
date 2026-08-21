@@ -1,3 +1,6 @@
+A substring must be continuous. When the current characters don't match, the continuous sequence is broken, so we reset dp[i][j] to 0. We cannot carry the previous result using max(top, left) because that would allow gaps, which is LCS behavior."
+
+
 LCS
 ----
 MATCH:
