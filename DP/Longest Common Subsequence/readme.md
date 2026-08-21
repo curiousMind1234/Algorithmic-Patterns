@@ -1,0 +1,1 @@
+"I'll use 2D dynamic programming. dp[i][j] represents the length of the LCS between the first i characters of string A and first j characters of string B. If the current characters match, I take the diagonal value and add one. Otherwise, I take the maximum of the top and left states. The time and space complexity are both O(mn)."
