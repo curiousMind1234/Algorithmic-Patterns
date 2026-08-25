@@ -3,8 +3,7 @@ int findMin(vector<int>& nums) {
 		int mid =0;
 		while(left<right){
 				mid = left + (right-left)/2;
-				cout << "left : " << left << " right:" << right << " mid: " << mid<< endl;
-				cout << "nums[left]" << nums[left] << endl;
+			
 				if(nums[mid] <= nums[right]){
 						right = mid;
 				} else {
