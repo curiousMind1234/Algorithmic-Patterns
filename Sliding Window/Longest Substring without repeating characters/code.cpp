@@ -12,4 +12,4 @@ int lengthOfLongestSubstring(string s) {
 }
 
 O(N)
-O(N) as we used map
+O(1)
