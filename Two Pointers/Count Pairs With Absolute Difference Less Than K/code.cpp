@@ -40,7 +40,6 @@ int findPairs(vector<int> nums, int k) {
             }
         }
     }
-
     return count;
 }
 
@@ -73,26 +72,17 @@ Code
 int findPairs(vector<int> nums, int k) {
     if (k <= 0)
         return 0;
-
     int count = 0;
     int n = nums.size();
-
     sort(nums.begin(), nums.end());
-
     int j = 0;
 
     for (int i = 0; i < n; i++) {
-
-        if (j < i + 1)
-            j = i + 1;
-
         while (j < n && nums[j] - nums[i] < k) {
             j++;
         }
-
         count += j - i - 1;
     }
-
     return count;
 }
 
