@@ -26,15 +26,16 @@ Keep slow at the meeting point.
 Set another pointer entry = head.
 Move both one step at a time.
 The node where they meet is the cycle's starting node.
-   
-/*entry = head
+-------------------------------------------------   
+entry = head
 slow  = meeting point
 
 while (entry != slow):
     entry = entry->next
     slow = slow->next
 
-return entry*/
+return entry
+----------------------------------
 
 Complete code:
 
